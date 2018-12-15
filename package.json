@@ -1,0 +1,34 @@
+{
+  "name": "csp_normalizer",
+  "version": "1.0.0",
+  "description": "Normalizes incoming CSP v1 to CSP v2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "csp-report-norm": "tollmanz/csp-report-norm"
+  },
+  "engines": {
+    "node": "6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csp-reporting/csp_normalizer.git"
+  },
+  "keywords": [
+    "CSP",
+    "Content",
+    "Security",
+    "Policy",
+    "Normalizer"
+  ],
+  "author": "Stefan Wallin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csp-reporting/csp_normalizer/issues"
+  },
+  "homepage": "https://github.com/csp-reporting/csp_normalizer#readme"
+}
